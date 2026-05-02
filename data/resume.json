@@ -1,0 +1,251 @@
+{
+  "personal": {
+    "name": "윤태일",
+    "title": "Full-Stack Developer & Tech Lead",
+    "phone": "+821031396713",
+    "email": "tqe10808@gmail.com",
+    "location": "경기도 성남시, 서울시 강남구",
+    "tagline": "10년+ 풀스택 개발자 | 스타트업 엑시트 2회 | 월 2억 매출 달성"
+  },
+  "softSkills": {
+    "businessDesign": {
+      "title": "비즈니스 모델 설계 및 분석",
+      "highlights": [
+        "2곳 스타트업 근무 및 엑시트(Exit) 경험",
+        "하이킥, RYDE 서비스 극초기 개발 및 운영 참여",
+        "GTwins 구독 서비스 BM 설계 및 PoC 진행",
+        "B2B 99% → B2C 50%+ 매출 전환 성공",
+        "월 매출 2억+ 달성 성과"
+      ]
+    },
+    "finance": {
+      "title": "금융 및 회계에 대한 이해",
+      "highlights": [
+        "주식 및 코인 업종 4년+ 업무 경험",
+        "미성년 시기부터 주식 및 세무 회계 경험"
+      ]
+    },
+    "management": {
+      "title": "팀 매니징",
+      "highlights": [
+        "5인 규모 개발팀 관리 경험",
+        "20건+ 외주 프로젝트 진행",
+        "5건+ PM 진행 경험"
+      ]
+    }
+  },
+  "technicalSkills": {
+    "main": [
+      {
+        "name": "Flutter",
+        "category": "Cross Platform APP",
+        "level": 95,
+        "experience": "10+ 프로젝트",
+        "highlights": [
+          "10개+ 앱 개발 및 출시",
+          "Canvas를 이용한 복잡한 UI (캔들 차트 직접 구현)",
+          "Native 기반 라이브러리 수정 및 개발",
+          "MQTT, WS, BLE 등 다양한 프로토콜 사용",
+          "Flutter 극 초기 버전 사용 및 경험"
+        ]
+      },
+      {
+        "name": "Flutter Web",
+        "category": "Web Development",
+        "level": 85,
+        "experience": "3+ 실서비스",
+        "highlights": [
+          "3건+ 실서비스 1년+ 유지보수 및 관리",
+          "웹 네이티브 라이브러리 Flutter 라이브러리로 포팅"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "category": "Backend",
+        "level": 90,
+        "experience": "Express, Nest.js",
+        "highlights": [
+          "주식 데이터 관리서버 운영 (장중 3000개 주식)",
+          "서비스 운영 및 배포 경험 (총괄개발자 1년+)",
+          "실시간 대용량 데이터 처리 (일 천만건+)",
+          "500만 계정 서비스 운영"
+        ]
+      }
+    ],
+    "sub": [
+      {
+        "name": "Spring",
+        "level": 70,
+        "experience": "1년 서비스 운영",
+        "highlights": ["MQTT 프로토콜, 1000+ IOT 장비 관리 서버 구축"]
+      },
+      {
+        "name": "iOS (Swift)",
+        "level": 60,
+        "experience": "간단한 UI 수정 및 기능 구현"
+      },
+      {
+        "name": "Android (Java, Kotlin)",
+        "level": 75,
+        "experience": "킥보드 앱 서비스 론칭, 대회 프로젝트 수상"
+      },
+      {
+        "name": "Web (React.js)",
+        "level": 65,
+        "experience": "간단한 웹사이트, 관리자 페이지 구현"
+      },
+      {
+        "name": "Solidity",
+        "level": 80,
+        "experience": "100억 규모 자금 운용 컨트랙트 작성"
+      },
+      {
+        "name": "PM",
+        "level": 85,
+        "experience": "5인 팀 관리, 20+ 외주 프로젝트, 5+ PM 경험"
+      }
+    ]
+  },
+  "career": [
+    {
+      "period": "2025.6 - 현재",
+      "company": "트라이업",
+      "position": "Tech Lead",
+      "achievements": [
+        "위기 프로젝트 정상화: 개발 기한 초과된 병원 CRM 'Motion T' 프로젝트 긴급 투입 및 성공적 출시 리딩",
+        "Canvas 이미지 처리 최적화: 기존 위젯 캡처 → Canvas 기반 직접 렌더링 전환, 성능 85% 향상",
+        "대규모 코드 리팩토링: 전체 코드 라인 수 85% 절감 및 유지보수성 극대화",
+        "DevOps 및 문서화 자동화: CI/CD 파이프라인에 AI 도입, AI 기반 개발 가이드 구축"
+      ],
+      "technologies": ["Flutter", "Node.js", "Canvas", "Native Module", "CI/CD", "AI"]
+    },
+    {
+      "period": "2025.3 - 2025.06",
+      "company": "균형과 매듭",
+      "position": "Blockchain Developer",
+      "achievements": [
+        "MNCO 월렛 제작",
+        "20여개의 컨트랙트 개발 및 배포"
+      ],
+      "technologies": ["Blockchain", "Solidity", "Smart Contract"]
+    },
+    {
+      "period": "2024.1 - 2024.12",
+      "company": "SCV SOFT",
+      "position": "Full-Stack Developer",
+      "achievements": [
+        "비즈니스 커뮤니케이션: 주요 거래처와 기술 협의 및 소통 전담",
+        "플랫폼 개발: 기업용 솔루션 및 코인 리워드 시스템 핵심 백엔드 아키텍처 설계",
+        "대용량 처리: 수만 개 노드 실시간 데이터 수집 및 통계 처리 파이프라인 구축"
+      ],
+      "technologies": ["Node.js", "Nest.js", "Flutter", "대용량 데이터 처리"]
+    },
+    {
+      "period": "2022.06 - 2024.01",
+      "company": "GTwins",
+      "position": "Lead Developer",
+      "achievements": [
+        "MTS 개발 (2인 개발/리드): 증권사 API 분석, Android-Flutter 통신 설계",
+        "차트 라이브러리 직접 개발: CCI, SMA, 일목균형표 등 보조 지표 표현",
+        "실시간 시세 서버 구현: MQTT 활용 3500개+ 주식 데이터 관리",
+        "실시간 가격 감시 서버 (1인 개발): 3천여명 유저 대상 알림 시스템",
+        "유저 결제 서버 (1인 개발): 유저 정보 및 결제 프로그램 개발",
+        "Flutter 웹 시세 조회 서비스 개발 (PoC 이후 8개월 서비스)"
+      ],
+      "technologies": ["Flutter", "Node.js", "MQTT", "실시간 데이터 처리", "차트 개발", "결제 시스템"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "트라이업 - Motion T",
+      "period": "2025.6 - 현재",
+      "role": "Tech Lead",
+      "description": "병원 CRM 시스템 위기 프로젝트 정상화",
+      "achievements": [
+        "Canvas 기반 이미지 처리 최적화로 성능 85% 향상",
+        "코드 리팩토링으로 85% 코드 절감",
+        "AI 기반 CI/CD 파이프라인 구축"
+      ],
+      "technologies": ["Flutter", "Node.js", "Canvas", "AI"],
+      "impact": "위기 프로젝트 성공적 출시"
+    },
+    {
+      "name": "GTwins MTS",
+      "period": "2022.06 - 2024.01",
+      "role": "Lead Developer",
+      "description": "증권사 연동 모바일 트레이딩 시스템",
+      "achievements": [
+        "차트 라이브러리 직접 개발 (캔들 차트, 보조 지표)",
+        "실시간 시세 서버 구축 (3500개+ 주식 데이터)",
+        "실시간 가격 감시 알림 서버 (3000명+ 유저)",
+        "Flutter 웹 시세 조회 서비스 (8개월 운영)"
+      ],
+      "technologies": ["Flutter", "Node.js", "MQTT", "Websocket"],
+      "impact": "실시간 금융 데이터 처리 시스템 구축"
+    },
+    {
+      "name": "HiKick",
+      "period": "2020.01 - 2020.06",
+      "role": "Full-Stack Developer",
+      "description": "킥보드 공유 서비스 전체 개발",
+      "achievements": [
+        "Flutter, Flutter Web, Spring Boot로 전체 스택 개발",
+        "지도 서비스 Google → Naver로 변경",
+        "결제 모듈 아임포트 → JTNET으로 변경"
+      ],
+      "technologies": ["Flutter", "Flutter Web", "Spring Boot", "NoSQL"],
+      "impact": "킥보드 공유 플랫폼 런칭"
+    },
+    {
+      "name": "TIDEMINE",
+      "period": "2024.1 - 2024.02",
+      "role": "Main Developer",
+      "description": "코인 리워드 앱 및 서버 구현",
+      "technologies": ["Flutter", "Nest.js"],
+      "impact": "코인 리워드 시스템 구축"
+    },
+    {
+      "name": "버니오토워시",
+      "period": "2022.04 - 유지보수중",
+      "role": "Solo Developer",
+      "description": "오토워시 통합 플랫폼 개발",
+      "achievements": [
+        "모바일 앱, 웹사이트, 관리자 앱 전체 개발"
+      ],
+      "technologies": ["Flutter", "Web"],
+      "impact": "턴키 프로젝트 완수 및 유지보수"
+    },
+    {
+      "name": "Dear My Day",
+      "period": "2022.01 - 2022.03",
+      "role": "Solo Developer",
+      "description": "Google 캘린더 기반 채팅 스타일 캘린더 앱",
+      "technologies": ["Flutter", "Node.js"],
+      "impact": "혁신적인 캘린더 앱 개발"
+    },
+    {
+      "name": "RYDE",
+      "period": "2019.01 - 2019.03",
+      "role": "Android Developer",
+      "description": "전동 킥보드 공유 앱 안드로이드 개발",
+      "technologies": ["Android", "Java"],
+      "impact": "킥보드 공유 서비스 런칭"
+    }
+  ],
+  "achievements": [
+    "스타트업 엑시트 2회 경험",
+    "월 매출 2억+ 달성 (GTwins B2C 전환)",
+    "코드 85% 절감 및 성능 85% 향상",
+    "10+ Flutter 앱 출시",
+    "500만+ 계정 서비스 운영",
+    "Smarteen App Challenge 2018 최우수상 수상",
+    "정부혁신박람회 금상 수상 (G-Mission)"
+  ],
+  "education": [
+    {
+      "period": "미성년 시기",
+      "title": "주식 및 세무 회계 경험",
+      "description": "어린 시절부터 주식 투자 및 기초 회계 경험"
+    }
+  ]
+}

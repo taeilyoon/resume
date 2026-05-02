@@ -1,0 +1,329 @@
+/* Print Styles */
+
+@media print {
+    /* Hide navigation and interactive elements */
+    .navigation,
+    .no-print {
+        display: none !important;
+    }
+    
+    /* Container setup */
+    .resume-container {
+        background: none !important;
+        padding: 0 !important;
+    }
+    
+    /* A4 page setup */
+    .resume-page {
+        width: var(--a4-width) !important;
+        height: var(--a4-height) !important;
+        page-break-after: always !important;
+        page-break-inside: avoid !important;
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        background: white !important;
+        transform: none !important;
+        opacity: 1 !important;
+        overflow: visible !important;
+    }
+    
+    /* Ensure all pages are visible */
+    .resume-page:nth-child(1) { page: cover; }
+    .resume-page:nth-child(2) { page: profile; }
+    .resume-page:nth-child(3) { page: skills; }
+    .resume-page:nth-child(4) { page: career; }
+    .resume-page:nth-child(5) { page: projects; }
+    .resume-page:nth-child(6) { page: achievements; }
+    
+    /* Page margins */
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    
+    @page cover {
+        margin: 0;
+    }
+    
+    @page profile {
+        margin: 0;
+    }
+    
+    @page skills {
+        margin: 0;
+    }
+    
+    @page career {
+        margin: 0;
+    }
+    
+    @page projects {
+        margin: 0;
+    }
+    
+    @page achievements {
+        margin: 0;
+    }
+    
+    /* Remove animations and transitions */
+    * {
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+    }
+    
+    /* Typography */
+    body {
+        font-size: 12pt !important;
+        line-height: 1.4 !important;
+        color: #000 !important;
+        background: #fff !important;
+    }
+    
+    h1 {
+        font-size: 24pt !important;
+        color: #000 !important;
+    }
+    
+    h2 {
+        font-size: 20pt !important;
+        color: #000 !important;
+    }
+    
+    h3 {
+        font-size: 16pt !important;
+        color: #000 !important;
+    }
+    
+    h4 {
+        font-size: 14pt !important;
+        color: #000 !important;
+    }
+    
+    /* Page content adjustments */
+    .page-content {
+        height: calc(var(--a4-height) - 120px) !important;
+        overflow: visible !important;
+        padding: var(--page-padding) !important;
+    }
+    
+    /* Page header */
+    .page-header {
+        background: #f0f0f0 !important;
+        color: #000 !important;
+        border-bottom: 2px solid #ccc !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    .page-header h2 {
+        text-shadow: none !important;
+        color: #000 !important;
+    }
+    
+    /* Cover page specific */
+    .page-cover {
+        background: #f0f0f0 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    .cover-name,
+    .cover-title,
+    .cover-tagline {
+        color: #000 !important;
+        text-shadow: none !important;
+    }
+    
+    .highlight-number {
+        color: #000 !important;
+        font-weight: bold !important;
+    }
+    
+    /* Remove floating elements */
+    .floating-elements,
+    .code-float {
+        display: none !important;
+    }
+    
+    /* Skills and progress bars */
+    .skill-bar,
+    .sub-skill-bar {
+        border: 1px solid #ccc !important;
+        background: #f0f0f0 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    .skill-progress,
+    .sub-skill-progress {
+        background: #333 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    /* Cards and sections */
+    .skill-card,
+    .timeline-content,
+    .project-card,
+    .achievement-card,
+    .profile-left {
+        background: #fff !important;
+        border: 1px solid #ccc !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    /* Timeline */
+    .career-timeline::before,
+    .education-timeline::before {
+        background: #ccc !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    .timeline-item::before,
+    .education-item::before {
+        background: #333 !important;
+        border: 2px solid #fff !important;
+    }
+    
+    /* Technology tags */
+    .tech-tag {
+        background: #f0f0f0 !important;
+        border: 1px solid #ccc !important;
+        color: #000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    /* Achievements */
+    .achievement-icon {
+        background: #f0f0f0 !important;
+        border: 2px solid #333 !important;
+        color: #000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    /* Stats */
+    .stat-item {
+        background: #f0f0f0 !important;
+        border: 1px solid #ccc !important;
+        color: #000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    /* Links */
+    a {
+        color: #000 !important;
+        text-decoration: underline !important;
+    }
+    
+    /* Project impact and featured items */
+    .project-impact {
+        background: #f0f0f0 !important;
+        border: 1px solid #ccc !important;
+        color: #000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    
+    .project-card.featured {
+        background: #f8f8f8 !important;
+        border-left: 4px solid #333 !important;
+    }
+    
+    /* Contact details */
+    .contact-item i {
+        color: #000 !important;
+    }
+    
+    /* Ensure content doesn't overflow */
+    .projects-grid,
+    .achievements-grid,
+    .stats-grid,
+    .sub-skills-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+    }
+    
+    /* Prevent break-inside for important elements */
+    .skill-card,
+    .timeline-content,
+    .project-card,
+    .achievement-card {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+    
+    /* Ensure images and icons print correctly */
+    .skill-icon,
+    .achievement-icon i,
+    .project-impact i {
+        print-color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+    
+    /* Remove hover effects */
+    .skill-card:hover,
+    .project-card:hover,
+    .achievement-card:hover,
+    .timeline-item:hover {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+    
+    /* Ensure all text is visible */
+    .skill-category li::before,
+    .skill-highlights li::before,
+    .timeline-achievements li::before,
+    .project-achievements li::before {
+        color: #000 !important;
+    }
+    
+    /* Hide scroll indicators */
+    .page-content {
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+    }
+    
+    .page-content::-webkit-scrollbar {
+        display: none !important;
+    }
+}
+
+/* Print optimization for different browsers */
+@supports (-webkit-print-color-adjust: none) {
+    @media print {
+        /* WebKit specific print styles */
+        .page-header,
+        .skill-bar,
+        .skill-progress,
+        .achievement-icon,
+        .stat-item,
+        .project-impact {
+            -webkit-print-color-adjust: exact !important;
+        }
+    }
+}
+
+@supports not (-webkit-print-color-adjust: none) {
+    @media print {
+        /* Firefox and other browsers */
+        .page-header,
+        .skill-bar,
+        .skill-progress,
+        .achievement-icon,
+        .stat-item,
+        .project-impact {
+            print-color-adjust: exact !important;
+        }
+    }
+}
