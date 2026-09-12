@@ -17,6 +17,7 @@ A4 사이즈에 최적화된 6페이지 인터랙티브 개발자 이력서
 ```
 resume/
 ├── index.html              # 메인 파일
+├── md-a4.html              # 마크다운 A4 뷰어 (추가됨)
 ├── css/
 │   ├── reset.css           # CSS 리셋
 │   ├── layout.css          # 그리드/레이아웃
@@ -32,6 +33,13 @@ resume/
 │   └── resume.json         # 이력서 데이터
 └── README.md              # 이 파일
 ```
+
+## 📄 마크다운 A4 뷰어 (md-a4.html)
+
+마크다운 파일을 A4 형식으로 렌더링하여 화면에서 확인하고 인쇄/PDF로 내보낼 수 있는 뷰어입니다.
+- **접속**: `md-a4.html` (기본값: `new-resume.md` 로드)
+- **다른 파일 로드**: `md-a4.html?src=freelance-profile.md` 와 같이 `src` 파라미터 사용
+- **특징**: 외부 라이브러리 없이 순수 JS로 마크다운 파싱, A4 프린트 최적화, 미니멀한 디자인
 
 ## 🎯 페이지 구성
 
