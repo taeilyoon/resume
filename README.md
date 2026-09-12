@@ -196,6 +196,13 @@ npx serve .
 # Live Server (VS Code 확장프로그램)
 ```
 
+### Docker Compose
+```bash
+docker compose up --build
+```
+
+브라우저에서 `http://localhost:8080`으로 접속합니다. 마크다운 A4 뷰어는 `http://localhost:8080/md-a4.html`에서 확인할 수 있습니다.
+
 ## ⚡ 성능 최적화
 
 - **이미지**: WebP 포맷, lazy loading
